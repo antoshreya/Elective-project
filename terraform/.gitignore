@@ -1,0 +1,6 @@
+# Ignore terraform working directory and state in this module
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl

@@ -1,0 +1,11 @@
+# ignore any .terraform directories anywhere in the repo
+**/.terraform/
+# terraform state and variables
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+
+# node / build
+/backend/node_modules/
+/frontend/node_modules/
